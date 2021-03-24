@@ -1,0 +1,27 @@
+name: rethinking
+channels: 
+        - r
+        - conda-forge
+dependencies: 
+        - r-essentials
+        - r-rstan
+        - r-devtools
+        - r-loo
+        - r-coda
+        - r-mvtnorm
+        - r-dagitty
+        - jupyterlab
+        - pip
+        - numpyro
+        - arviz
+        - matplotlib
+        - seaborn
+        - jax
+        - altair
+        - mkl-service
+        - pip:
+                - causalgraphicalmodels
+                - daft
+                - watermark
+                - "git+git://github.com/arviz-devs/arviz.git@main"
+                - "git+git://github.com/pymc-devs/pymc3.git@master"
