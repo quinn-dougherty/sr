@@ -11,17 +11,16 @@ dependencies:
         - r-mvtnorm
         - r-dagitty
         - jupyterlab
-        - pip
         - numpyro
+        - pymc3
         - arviz
         - matplotlib
         - seaborn
         - jax
         - altair
         - mkl-service
+        - pip
         - pip:
                 - causalgraphicalmodels
                 - daft
                 - watermark
-                - "git+git://github.com/arviz-devs/arviz.git@main"
-                - "git+git://github.com/pymc-devs/pymc3.git@master"
